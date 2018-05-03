@@ -46,7 +46,8 @@ int main(void)
     n = ord[0];
     M = ord[1];
 
-	int pesos[n];
+	
+    int pesos[n];
     int valores[n];
     int j =0;
 	for (int i=2; i < 2*n+2; i = i+2)
