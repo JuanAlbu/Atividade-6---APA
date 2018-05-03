@@ -35,7 +35,7 @@ int main(void)
     string file;
     cout << "Digite o nome do arquivo a ser ordenado: ";
     cin >> file;
-    ifstream in(file);
+    ifstream in(file.c_str());
     char numero[10];
     int fim = 0;
     while(!in.eof()){
